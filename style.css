@@ -1,0 +1,227 @@
+.main-container{
+    background-color: white;
+    margin: 7% 30%; padding: 1% 5%;
+    box-shadow: 1px 1px 10px black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 3%; padding-right: 8%;
+    border-radius: 10px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.field1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.field2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+}
+.labels{
+    margin-bottom: 3%;
+}
+input{
+    border: 1px solid grey;
+    padding: 2% 4%; border-radius: 5px;
+    background-color: rgb(253, 252, 252);
+    width: 100%;
+}
+button{
+    border: none; border-radius: 5px;
+    background-color: rgb(0, 132, 255);
+    padding: 3% 5%; color: white;
+    margin-top: 10%;
+}
+.fa-google{
+    margin-right: 10px;
+}
+#signInBtn{
+    margin-top: 0%;
+}
+
+
+
+@media all and (min-width: 1250px) {
+    .field1{
+        margin-top: 7%;
+    }
+    .main-container{
+        margin: 7% 30%; padding: 1% 5%;
+        padding-bottom: 3%; padding-right: 8%;
+    }
+    input{
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1240px) {
+    .field1{
+        margin-top: 7%;
+    }
+    .main-container{
+        margin: 7% 30%; padding: 1% 5%;
+        padding-bottom: 3%; padding-right: 8%;
+    }
+    input{
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1160px) {
+    .main-container{
+        margin: 7% 30%; padding: 1% 5%;
+        padding-bottom: 3%; padding-right: 8%;
+    }
+    .field1{
+        margin-top: 7%;
+    }
+    input{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 1160px) {
+    .main-container{
+        margin: 7% 30%; padding: 1% 5%;
+        padding-bottom: 3%; padding-right: 8%;
+    }
+    .field1{
+        margin-top: 7%;
+    }
+    input{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    .main-container{
+        margin: 7% 30%; padding: 1% 5%;
+        padding-bottom: 3%; padding-right: 8%;
+    }
+    .field1{
+        margin-top: 7%;
+    }
+    input{
+        width:  100%;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .main-container{
+        margin: 7% 25%; padding: 1% 5%;
+        padding-bottom: 3%; padding-right: 8%;
+    }
+    .field1{
+        margin-top: 7%;
+    }
+    input{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 920px) {
+    .main-container{
+        margin: 6% 25%; padding: 1% 5%;
+        padding-bottom: 3%; padding-right: 8%;
+    }
+    .field1{
+        margin-top: 7%;
+    }
+    input{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 860px) {
+    h1{
+        font-size: 180%;
+    }
+    .main-container{
+        margin: 6% 20%; padding: 1% 5%;
+        padding-bottom: 3%; padding-right: 8%;
+    }
+    .field1{
+        margin-top: 7%;
+    }
+    input{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .main-container{
+        margin: 5% 20%; padding: 1% 5%;
+        padding-bottom: 3%; padding-right: 8%;
+    }
+    input{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 680px) {
+    .main-container{
+        margin: 4% 15%; padding: 1% 5%;
+        padding-bottom: 3%; padding-right: 9%;
+    }
+    h1{
+        font-size: 165%;
+    }
+    input{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 620px) {
+    .main-container{
+        margin: 3% 10%; padding: 1% 5%;
+        padding-bottom: 4%; padding-right: 10%;
+    }
+    input{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .main-container{
+        margin: 4% 5%; padding: 1% 5%;
+        padding-bottom: 5%; padding-right: 10%;
+    }
+    h1{
+        font-size: 165%;
+    }
+    input{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 430px) {
+    .main-container{
+        margin: 4% 5%; padding: 1% 5%;
+        padding-bottom: 5%; padding-right: 11%;
+    }
+    input{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 330px) {
+    button{
+        font-size: 75%;
+        margin-top: 10%;
+    }
+    .btn3{
+        margin-top: 0%;
+    }
+    .main-container{
+        margin: 0% 0%; padding: 1% 5%;
+        padding-bottom: 5%; padding-right: 13%;
+    }
+    h1{
+        font-size: 120%;
+    }
+    input{
+        width: 100%;
+    }
+}
